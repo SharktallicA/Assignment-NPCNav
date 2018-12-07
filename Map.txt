@@ -1,0 +1,42 @@
+# Format: Tile's Char,Utility::Colour as int,Movement Cost
+# Origin tile
+*,O,4,0
+# Destination tile
+*,D,4,0
+# Free tile
+*, ,2,2
+# Mountain tile
+*,H,15,999
+# River tile
+*,W,1,999
+# Road tile
+*,R,8,1
+# Marsh tile
+*,M,10,4
+# Map:
+###########################################
+      D                                         
+MM                                              
+HMNMMMMMMMMM      MMMMMMMMMMMMMMMMMMMMMMMM      
+HMMMMMMMMWWWMMMMMMWWWWWWWWWWWWWWWWWWWWWWWM      
+HMWMMMMMMMMWM     MMMMMMMWWWWWWWWWWWM           
+HHWWM      M          HHHHWWWWWWWWM             
+HHHHWM    MWM          HHHHHHWWWWWM             
+HHHMWWW   MWM          HHHHHHHWM                
+ MMMMWWWM MWM            MHHHHHWM               
+     MMM   M            MWWWWWWWM               
+   MMMMMMMMMMM         MWWWMMMMMMMMMM           
+RRRRRRRRRRRRRRRRR       MWWWWWWWWWWWM           
+  MWWHHHHHHWWWM          MMMMMMWWMMM            
+  MWWHHHHHHWWWMMMMM            RRR              
+  MWWHHHHHHWWWWWWWWMMMMMMMWWWWWWWM              
+   MWWWHHHHWWWMMMMM           MMM               
+     MWWWHHWWWM          MMMMWWWWWWMMM   R      
+       MWWWWWWMMMMMMMMMMMWWWWWWWWWWWWWM  R      
+        MMMWWWWWMWWWWWWWWWWWWWWWWWWWWWWWWRM     
+           MMMMMMMMMMWWWWWWWWWWWWWWWWWWWWR      
+                     MMMMMWWWWWWWWWWWWWM R      
+                          MMMMMMMMMMMMM  R      
+                RRRRRRRRRRRRRRRRRRRRRRRRRR      
+  O                                             
+###########################################      

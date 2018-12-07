@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Headers\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Headers\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Headers\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLoader.h">
+      <Filter>Headers\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAlgorithm.h">
+      <Filter>Headers\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>Headers\Algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{1772ccef-31a3-4843-ae89-73217c33f41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{0fffd02e-5460-4e9a-8b15-19aa0a3ee389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Data Structures">
+      <UniqueIdentifier>{cb9670b9-74d5-4ccb-bc79-40a3f935f86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Tools">
+      <UniqueIdentifier>{3dfae378-96f1-4eb0-b7e6-480a39154c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Algorithms">
+      <UniqueIdentifier>{2dc840d0-0989-49b2-b9c2-0765cd829cc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Map.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
